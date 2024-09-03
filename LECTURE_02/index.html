@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First login page</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <div class="login-page-container">
+        <div class="login-container">
+            <h1>My first login page</h1>
+            <form class="login-form" onsubmit="return getFormData()">
+                <div class="user_name_input_group">
+                    <label class="username_label">Username
+                        <input class="username_input" id="username_input" type="text" required/>
+                    </label>
+                </div>
+                <div class="password_input_group">
+                    <label class="password_label">Password
+                        <input class="password_input" id="password_input" type="password" required/>
+                    </label>
+                </div>
+                <button class="login_submit_button" type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>
