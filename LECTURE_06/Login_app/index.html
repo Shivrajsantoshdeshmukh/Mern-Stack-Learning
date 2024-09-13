@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="UTF-8"/>
+        <title>My First Web Page</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        
+        <form onsubmit="submitUserInformation(event)">
+            <div>
+                <label for="username">Username:</label>
+                <input id="username_input" type="text" required/>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input id="password_input" type="password" required/>
+            </div>
+            <button type="submit">
+                Submit
+            </button>
+        </form>
+        
+        <script src="./action.js"></script> 
+    </body>
+</html>
+
