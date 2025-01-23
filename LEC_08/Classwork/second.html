@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Employes Detail Form</h1>
+    <form name="action">
+        <!-- Full name -->
+         <label for="name">Full Name:</label>
+         <input type="text" id="name" name="fname" placeholder="Enter your name" required>
+<!--we are write here id form whenver you clicked on a full name thus automatic goes on full name box and we also used here name becaused 
+that server know user entered infornamtion for that name we are giving that for e.g:-fname -->
+        <br><br>
+         <!-- email -->
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="Email" placeholder="Enter your Email" required>
+         <br>
+         <br>
+          <!-- phone number -->
+          <label for="pn">PhoneNo:</label>
+         <input type="tel" id="pn" name="PhoneNo" placeholder="Enter your mobile number" required>
+         <br>
+         <br> 
+           <!-- gender -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="other">Other</label>
+            <br>
+            <br>
+            <!-- job tile  -->
+             <label for="job">Job Title:</label>
+             <input type="text" id="job" name="JOB" placeholder="Enter the Job Title" required>
+             <br>
+             <br>
+             <!-- department -->
+              <label for="dept">Department:</label>
+              <select name="dept" id="Department">
+                <option value="" disabled selected>Select Your Department</option>
+                <option value="Computer">Computer</option>
+                <option value="Mechanical">Mechanical</option>
+                <option value="ENTC">ENTC</option>
+                <option value="Chemical">Chemical</option>
+                <option value="civil">Civil</option>
+                <br>
+                <br>
+
+              </select>
+              <!-- sumbit -->
+               <br>
+               <br>
+               <button>Sumbit</button>
+               
+               
+               
+               
+    </form>
+</body>
+</html>

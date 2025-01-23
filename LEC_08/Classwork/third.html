@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>Employes Detail Form</h1> -->
+     <fieldset>
+        <legend><h1>Registration Form</h1></legend>
+     
+    <form name="action">
+        <!-- Full name -->
+         <label for="name">Full Name:</label>
+         <input type="text" id="name" name="fname" placeholder="Enter your name" required>
+<!--we are write here id form whenver you clicked on a full name thus automatic goes on full name box and we also used here name becaused 
+that server know user entered infornamtion for that name we are giving that for e.g:-fname -->
+        <br><br>
+         <!-- email -->
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="Email" placeholder="Enter your Email" required>
+         <br>
+         <br>
+          <!-- phone number -->
+          <label for="pn">PhoneNo:</label>
+         <input type="number" id="pn" name="PhoneNo" placeholder="Enter your mobile number" required>
+         <br>
+         <br>
+         <!-- password -->
+         <label for="pass">Password:</label>
+         <input type="password" id="pass" name="password" placeholder="Enter your password" required>
+         <br>
+         <br> 
+           <!-- gender -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="other">Other</label>
+            <br>
+            <br>
+            <!-- Day of birth  -->
+             <label for="day">Date Of Birthday:</label>
+             <input type="date" id="day" name="DOB" placeholder="Enter the Birthday date" required>
+             <br>
+             <br>
+             <!-- school name -->
+             <label for="sname">School Name:</label>
+             <input type="text" id="sname" name="SN" placeholder="Enter your school name" required>
+             <br>
+             <br>
+             <!-- department -->
+              <label for="bord">Bord:</label>
+              <select name="Bord" id="bord">
+                <option value="" disabled selected>Select the Bord</option>
+                <option value="10thbord">SSC</option>
+                <option value="12thbord">HSC</option>
+                <option value="CBSC">CBSC</option>
+                <option value="MVB">MVB</option>
+                <option value="MH">MHCET</option>
+                
+                
+
+              </select>
+              <br>
+                <br>
+              <!-- year of passing -->
+              <label for="year">Year Of Passing:</label>
+              <input type="number" id="year" name="YEARP" placeholder="Enter your passing year   " min="2010" max="2030" required>
+              <br>
+              <br>
+              <!-- exam center -->
+              <label for="center">Exam-Center:</label>
+              <select name="Center" id="center">
+                <option value="" disabled selected>Select the Center</option>
+                <option value="nashik">Nashik</option>
+                <option value="puna">Pune</option>
+                <option value="anagar">A.Nagar</option>
+                <option value="Shirdi">Shirdi</option>
+                <option value="sagm">Sangmner</option>
+              </select>  
+                <!-- sumbit -->
+               <br>
+               <br>
+
+               <button>Register</button>
+
+
+               </fieldset>
+               
+               
+               
+               
+    </form>
+</body>
+</html>
