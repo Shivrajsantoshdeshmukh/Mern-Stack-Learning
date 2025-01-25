@@ -1,0 +1,13 @@
+p[ id="sarthak"]{
+    color: red;
+}
+/* Child la color dila */
+section >p{
+    color: red;
+}
+section div p{
+    color: green;
+}
+section div div p{
+    color:brown;
+}
