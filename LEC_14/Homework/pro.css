@@ -1,0 +1,20 @@
+body{
+    background-color: antiquewhite;
+
+}
+.card{
+    width: 30vw;
+    height: 20vw;
+
+    text-align: center;
+    border: 10px rgb(81, 255, 0) solid;
+    background-color: rgb(83, 241, 249);
+    margin-left: 68vh;
+    
+}
+.card:hover{
+    background-color:lightblue;
+}
+.card:hover{
+    transform: scale(1.2);
+}
