@@ -1,0 +1,72 @@
+/* Global Styles */
+body {
+    font-family: 'Verdana', sans-serif; /* Sets the default font */
+    color: #333; /* Sets the default text color */
+    background-color: #f0f0f0; /* Sets a light gray background color */
+}
+
+header{
+    background-color: #4CAF50;
+    h1{
+        color: aliceblue;
+        font-size: 3em; /* Sets the font size for h1 */
+        font-weight: bold; /* Makes the font bold */
+    }
+    h3{
+        color: yellow;
+    }
+}
+
+#first{
+    background-color:#f9f9f9;
+}
+#second{
+    background-color:#f9f9f9;
+}
+#third{
+    background-color: #f9f9f9;
+}
+h3{
+    color: #FF69B4; /* Sets a hot pink color for h4 headings */
+    font-size: 1.5em;
+}
+#four{
+    
+    font-size: 2em; /* Sets the font size for h3 in CSS article */
+    color: #007BFF;
+}
+#five{
+    font-size: 2em; 
+    color: #FF4500;
+}
+/* Table Styles */
+table {
+    width: 100%; /* Makes the table full width */
+    background-color: #f9f9f9; /* Sets a light background for the table */
+}
+
+th, td {
+    text-align: left; /* Aligns text to the left in table cells */
+}
+
+th {
+    background-color: #007BFF; /* Sets a blue background for table header */
+    color: white; /* Sets text color for table header */
+}
+
+td {
+    color: #333; /* Sets a darker color for table cells */
+}
+#third{
+    
+   h2{font-size: 2em; 
+    color: #8A2BE2;} 
+      
+}
+footer{
+    font-weight: bold;
+    background-color: darkgray;
+    color: #333
+}
+
+
