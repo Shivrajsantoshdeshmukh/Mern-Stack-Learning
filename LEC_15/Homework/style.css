@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+.first{
+    display: inline-block;
+    width:100vw;
+    height: 10vh;
+    background-color: aqua;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+
+}
+.second{
+    display: inline-block;
+
+    width:100vw;
+    height: 10vh;
+    background-color: aqua;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+
+
+}
+.three{
+    display: inline-block;
+
+    width:100vw;
+    height: 10vh;
+    background-color: aqua;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 30%;
+    
+
+
+}
