@@ -1,0 +1,12 @@
+*{
+    margin: 0%;
+}
+h1{
+    background-color: aqua;
+}
+.fixe{
+    position: fixed;
+}
+.para{
+    padding-top: 40px;
+}

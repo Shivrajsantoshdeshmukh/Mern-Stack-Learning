@@ -1,0 +1,31 @@
+.fixe{
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: blanchedalmond;
+    height: 2000px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: green;
+    position: fixed;
+    top: 100px;
+}
+.box3{
+    background-color: palevioletred;
+}
+.box4{
+    background-color: crimson;
+}
+.new{
+    
+    height: 800px;
+    background-color: aqua;
+    
+}
