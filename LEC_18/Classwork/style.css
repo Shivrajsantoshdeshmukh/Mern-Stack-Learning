@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: rgb(235, 226, 226);
+}
+
+
+
+.card{
+    
+    display: inline-block;
+    background-color: rgb(235, 226, 226);
+    border: 5px rgb(235, 226, 226) solid;
+    padding: 20px;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: white;
+    border-radius: 20px;
+    /* border: 5px white solid; */
+}
+.image{
+    position: relative;
+}
+.OFF{
+    position: absolute;
+    bottom: 20px;
+    margin: 5px;
+    background-color:rgb(247, 66, 66);
+    font-size: 30px;
+    
+    
+}
+.img{
+    border-radius: 20px;
+    
+}
+
+
+.img{
+    height: 250px;
+    
+}
+.Restarant{
+    display: inline-block;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.Restarant_name{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+.Rating{
+    display: inline-block;
+    position: absolute;
+    left:350px;
+    height: 20px;
+    background-color: green;
+    border-radius: 5px;
+    padding: 3px;
+   
+    
+}
+.food{
+    position: relative;
+    margin-bottom: 5px;
+
+}
+.food_name{
+  display: inline-block;
+  color: gray;
+}
+.price{
+    display: inline-block;
+    position: absolute;
+    right: 1155px;
+    color: gray;
+
+}
+.Address{
+    position: relative;
+}
+.location{
+    display: inline-block;
+    color: gray;
+
+}
+.distance{
+    display: inline-block;
+    position: absolute;
+    left: 330px;
+    font-size: 12px;
+    font-weight: bold;
+}

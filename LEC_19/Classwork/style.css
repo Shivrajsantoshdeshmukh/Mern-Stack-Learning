@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(253, 243, 243);
+}
+
+.image{
+    position: relative;
+}
+
+.card:hover{
+    background-color: white;
+    border-color: white;
+}
+
+.off{
+    font-size: 30px;
+    color: white;
+    background-color: rgba(218, 43, 16, 0.6);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.card{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 20px solid rgb(253, 243, 243);
+    border-radius: 20px;
+}
+
+.head{
+    background-color: white;
+    
+    
+}
+.first{
+    margin-left: 250px;
+    
+    padding-bottom: 10px;
+}
+.brand{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-right: 50px;
+
+}
+.searching{
+    position: relative;
+    bottom: 3px;
+    border-radius:50px;
+    width: 200px;
+    padding: 0px;
+}
+.input{
+    padding: 10px;
+    border-radius: 10px;
+    width:400px;
+}
+button{
+    border: none;
+    background-color: white;
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    color: black;
+}
+
+
+.login{
+    margin-left: 650px;
+    color: gray;
+    background-color: white;
+
+    
+}
+.signup{
+    margin-left: 30px;
+    color: gray;
+
+}
+
+.second{
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.img3{
+    height: 70px;
+    width: 70px;
+}
+.dining{
+    margin-left: 200px;
+}
+
+
+
+.dine, .Delivery, .Nighting{
+    position: relative;
+    bottom: 22px;
+    left: 5px;
+    font-size: 20px;
+    color: rgb(98, 93, 93);
+}
+
+.delivery{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Box{
+    display: inline-block;
+}
+
+.img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.Restaurant_name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Restaurant , .food, .Location{
+   position: relative;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.rating{
+    background-color: green;
+    height: 20px;
+    padding: 3px;
+    position: absolute;
+    right: 5px;
+    color: white;
+    border-radius: 8px;
+}
+
+.price, .Distance{
+    position: absolute;
+    right: 5px;
+}
+
+.food, .Place{
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+}
+
+.Distance{
+    font-size: 10px;
+    font-weight: bold;
+}
