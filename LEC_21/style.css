@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    background-color: aqua;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 2px;
+}
+.box1{
+    background-color: red;
+    align-self: end;
+    /* flex-shrink: 2; */
+
+}
+.box2{
+    background-color: red;
+    /* flex-shrink: 4;
+    flex-grow: 2; */
+    /* flex-grow: 1; */
+    /* order: 2; that flex item having high order that element having comes in last */
+}
+.box3{
+    background-color:red;
+    /* flex-basis: 600px;
+    flex-shrink: 4; */
+    /* flex-grow: 1;
+    flex-shrink: 2; */
+    /* flex-grow: 3; hi 1 chya 3 patina vaden */
+    /* order: 1; */
+}
+.box4{
+    background-color: red;
+}
+.box5{
+    background-color: red;
+}
