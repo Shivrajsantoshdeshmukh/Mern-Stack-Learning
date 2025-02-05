@@ -1,0 +1,71 @@
+
+
+
+
+/*p{
+    text-align: justify;
+} */
+ /* .container{
+    direction: rtl;
+
+}
+H1{
+    unicode-bidi: bidi-override;
+
+ 
+} */
+ /* p{
+    text-align-last:justify;
+ } */
+  /* span{
+    vertical-align: sub ;super,baseline
+  } */
+/* h1{
+    text-decoration-line:overline underline ;overline line through underline underline and overline
+} */
+/* h1{
+    text-decoration-color:red ;
+ }
+ h2{
+    text-decoration-color:yellow;
+ }
+ h1{
+    text-decoration-style:dotted ;
+ } */
+
+ 
+ 
+ 
+ /* h1 {
+    text-decoration: underline overline; 
+    
+    text-decoration-color: red;
+    
+    text-decoration-style:dotted; 
+    
+    text-decoration-thickness: 3px;
+ }
+  */
+
+  /* h1{
+    text-transform: capitalize;
+
+}
+    */
+ .container{
+    height: 800px;
+    width: 800px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }    
+ .shadow{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    box-shadow:inset 30px 30px 5px -10px  red;
+    
+
+}   

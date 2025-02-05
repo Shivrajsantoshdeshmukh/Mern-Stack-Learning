@@ -1,0 +1,240 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.swiggy{
+    
+    background-color: white;
+}
+.head{
+    height: 850px;
+    background-color: rgb(245, 74, 0);
+
+    
+}
+
+.brand{
+    display: flex;
+    justify-content: space-around;
+    
+
+    
+}
+.ilogo{
+    height: 50px;
+    width: 100px;
+    margin-top: 50px;
+    padding-right: 40rem;
+}
+.but{
+margin-top: 50px;
+}
+button{
+    background-color: rgb(245, 74, 0);
+    margin-right: 2rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.b3{
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius:0.8rem;
+    background-color: rgb(245, 74, 0);
+}
+.b4{
+    
+    background-color: black;
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+}
+.tag{
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+}
+.address{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+    
+}
+.location{
+    margin-right: 1rem;
+    
+}
+.l1{
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+    border: none;
+    color: grey;
+}
+.l2{
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+    border: none;
+}
+.images{
+    height: 350px;
+    width: 300px;
+    cursor: pointer;
+}
+.ihead{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.hori{
+    display: flex;
+    justify-content: center;
+}
+.horizontal-line {
+    
+    width:1400px; /* Adjust width as needed */
+    height: 1rem; /* Thickness of the line */
+    background-color: white; /* Line color */
+    border: none; /* Removes border if any */
+    margin: 20px 0; /* Spacing above and below the line */
+    border-radius: 0.2rem;
+    position: relative;
+}
+.horizontal-line::before {
+    content: '\25C0'; /* Unicode for left-pointing triangle */
+    position: absolute;
+    left:5px; /* Position before the line */
+    font-size: 12px; /* Adjust triangle size */
+    color: grey; /* Triangle color */
+}
+.horizontal-line::after {
+    content: '\25B6'; /* Unicode for right-pointing triangle */
+    position: absolute;
+    right: 5px; /* Position after the line */
+    font-size: 12px; /* Adjust triangle size */
+    color: grey; /* Triangle color */
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem 6rem;
+
+}
+
+
+.item{
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+}
+.item1{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.item2{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+
+.fimage{
+
+    height: 150px;
+    width: 150px;
+    padding: 1rem;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 6rem;
+
+}
+.gimage{
+    height: 200px;
+    width: 150px;
+    margin-left: 2rem;
+    
+}
+.groceries{
+    display: flex;
+    overflow-x: scroll;
+
+}
+.veg{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.veg >p{
+    font-weight: bold;
+    font-size:20px;
+    color: rgb(99, 92, 92);
+}
+.banner{
+    height: 300px;
+    width: 100%;
+    margin-top: 3rem;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    padding: 0rem 4rem;
+}
+.point{
+    cursor: pointer;
+    color: rgb(147, 137, 137);
+    margin-top: 1rem;
+    
+}
+.point >p{
+    margin: 1rem;
+}
+.point >button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: 100;
+    padding: 2px;
+    border-radius: 5px;
+
+} 
+.lin{
+    margin: 3rem 6rem;
+
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem;
+}
+.store{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.app:hover{
+    background-color: black;
+    box-shadow: 10px -10px ;
+    
+}
+.play:hover{
+    background-color: black;
+    box-shadow: 10px -10px ;
+    
+}
+.app{
+    margin-right:2rem ;
+}
+

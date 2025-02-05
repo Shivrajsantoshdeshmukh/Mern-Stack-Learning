@@ -1,0 +1,27 @@
+.container{
+    height: 800px;
+    width: 800px;
+    background-color: aqua;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    /* border: 2px solid orange; */
+    transition-duration: 3s;
+    transition-delay:2s;
+    transition-timing-function: ease-out;
+
+    
+}
+.first:hover{
+   background-color: orange;
+   width: 400px;
+   height: 400px;
+}
