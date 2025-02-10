@@ -1,0 +1,19 @@
+.container{
+ height: 50vh;
+ width: 50vh;
+ display: grid;
+ background-color: grey;
+ padding: 6rem;
+ /* grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px; */
+ /* grid-template-columns: repeat(8,100px); */
+ grid-template-columns: repeat(8,1fr);
+
+
+}
+
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}

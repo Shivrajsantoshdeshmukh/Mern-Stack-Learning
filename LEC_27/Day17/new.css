@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    
+height: 100%;
+background-color: black;
+padding: 4rem;
+display: grid;
+place-items: center;
+}
+.orbit{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: relative;
+}
+.sun{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+
+
+}
+
+.mars{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: mar 10s linear 0s infinite;
+    position: absolute;
+    top: 3rem;
+
+
+}
+
+@keyframes mar {
+    from{
+        transform: rotate(0deg) translate(150px);
+    }
+
+    to{
+        transform: rotate(360deg) translate(150px);
+    }
+    
+}
+
+.orbital{
+
+    height: 200px;
+    width: 200px;
+    border:1px white dashed;
+    border-radius: 50%;
+    position: absolute;
+    top: 1rem;
+    right: px;
+
+
+}
+
+
+
+
+/* .earth{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blue;
+} */

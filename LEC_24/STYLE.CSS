@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 3rem;
+    height: 1000px;
+    background-color: aquamarine;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 200px 200px; row nahi write keli tari chalate */
+    grid-template-rows: 1fr 1fr;
+
+
+    
+}
+.box{
+    /* margin: 10px;  */
+    background-color: yellow;
+    border: 5px solid black;
+}

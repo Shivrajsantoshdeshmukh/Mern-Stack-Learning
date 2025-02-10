@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    padding: 3rem;
+    display: grid;
+    background-color: aquamarine;
+    gap: 1rem;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: 
+    "box1 box2 box2 box3"
+    "box1 box4 box5 box6"
+    "box1 box7 box8 box6";
+    
+    
+
+
+}
+.box{
+    background-color: cadetblue;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.box1{
+    grid-area: box1;
+}
+.box2{
+    grid-area: box2;
+}
+.box3{
+    grid-area: box3;
+}
+.box4{
+    grid-area: box4;
+}
+.box5{
+    grid-area: box5;
+}
+.box6{
+    grid-area: box6;
+}
+.box7{
+    grid-area: box7;
+}
+.box8{
+    grid-area: box8;
+}
+
